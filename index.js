@@ -5,6 +5,7 @@ const request = require("requestretry");
 const zlib = require("zlib");
 const NodeCache = require("node-cache" );
 const _ = require("lodash");
+var flatten = require('flat');
 
 const url = "https://raw.githubusercontent.com/stadtnavi/tilelive-cifs/main/cifs/herrenberg.cifs.json";
 
@@ -35,14 +36,16 @@ const getGeoJson = (url, callback) => {
 const cifsToGeoJson = json => {
 
   const features = json.incidents.map(incident => {
+
+    incident.mode = incident.mode.join(",")
+
     return {
       type: "Feature",
       geometry: {
         type: "LineString",
         coordinates: cifsPolylineToGeoJson(incident.location.polyline)
       },
-      // lat/long is a little superfluous, given that it's in the geometry above, but not removing it keeps the code simpler
-      properties: incident
+      properties: flatten(incident)
     };
   });
 

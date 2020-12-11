@@ -9,6 +9,7 @@
   "author": "lehrenfried",
   "license": "ISC",
   "dependencies": {
+    "flat": "^5.0.2",
     "geojson-vt": "^3.2.0",
     "lodash": "^4.17.20",
     "node-cache": "^5.1.2",
