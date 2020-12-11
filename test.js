@@ -11,7 +11,7 @@ describe("CifsSource", function() {
     assert(json.incidents.length == 6);
 
     const geoJson = cifsToGeoJson(json);
-    fs.writeFileSync("cifs/herrenberg.geojson", JSON.stringify(geoJson));
+    fs.writeFileSync("cifs/herrenberg.geojson", JSON.stringify(geoJson, null, 2));
   });
 
   it("fetch data", (done) => {
