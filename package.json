@@ -1,0 +1,21 @@
+{
+  "name": "tilelive-park-api",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "lehrenfried",
+  "license": "ISC",
+  "dependencies": {
+    "geojson-vt": "^3.2.0",
+    "node-cache": "^5.1.2",
+    "requestretry": "^1.6.0",
+    "vt-pbf": "^2.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2",
+    "prettier": "1.19.1"
+  }
+}
