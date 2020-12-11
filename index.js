@@ -3,9 +3,10 @@ const geojsonVt = require("geojson-vt");
 const vtPbf = require("vt-pbf");
 const request = require("requestretry");
 const zlib = require("zlib");
-const NodeCache = require( "node-cache" );
+const NodeCache = require("node-cache" );
+const _ = require("lodash");
 
-const url = "https://api.parkendd.de/Ulm";
+const url = "https://raw.githubusercontent.com/stadtnavi/tilelive-cifs/main/cifs/herrenberg.cifs.json";
 
 const getGeoJson = (url, callback) => {
   request(
@@ -23,7 +24,7 @@ const getGeoJson = (url, callback) => {
         callback(err);
         return;
       }
-      callback(null, parkApiToGeoJson(body));
+      callback(null, cifsToGeoJson(JSON.parse(body)));
     }
   );
 };
@@ -31,18 +32,17 @@ const getGeoJson = (url, callback) => {
 // i haven't been able to find a way to directly generate the vector tiles, so
 // we take a detour via geojson.
 // if you know of a way to do it directly, let me know.
-const parkApiToGeoJson = data => {
-  const json = JSON.parse(data);
+const cifsToGeoJson = json => {
 
-  const features = json.lots.map(lot => {
+  const features = json.incidents.map(incident => {
     return {
       type: "Feature",
       geometry: {
-        type: "Point",
-        coordinates: [lot.coords.lng, lot.coords.lat]
+        type: "LineString",
+        coordinates: cifsPolylineToGeoJson(incident.location.polyline)
       },
       // lat/long is a little superfluous, given that it's in the geometry above, but not removing it keeps the code simpler
-      properties: lot
+      properties: incident
     };
   });
 
@@ -50,6 +50,10 @@ const parkApiToGeoJson = data => {
     type: "FeatureCollection",
     features: features
   };
+};
+
+const cifsPolylineToGeoJson = (linestring) => {
+  return _.chunk(linestring.trim().split(" "), 2);
 };
 
 class CifsSource {
@@ -120,3 +124,5 @@ module.exports = CifsSource;
 module.exports.registerProtocols = tilelive => {
   tilelive.protocols["cifs:"] = CifsSource;
 };
+
+module.exports.cifsToGeoJson = cifsToGeoJson;
