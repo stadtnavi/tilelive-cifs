@@ -37,7 +37,7 @@ const cifsToGeoJson = json => {
 
   const features = json.incidents.map(incident => {
 
-    incident.mode = incident.mode.join(",")
+    incident.mode = incident.mode.join(",");
 
     return {
       type: "Feature",
@@ -114,7 +114,7 @@ class CifsSource {
       maxzoom: 20,
       vector_layers: [
         {
-          description: "Parking lots data retrieved from a ParkAPI source",
+          description: "Roadworks data retrieved from CIFS source",
           id: "cifs"
         }
       ]
