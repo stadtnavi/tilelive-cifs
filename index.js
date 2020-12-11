@@ -96,7 +96,7 @@ class CifsSource {
       tile = { features: [] };
     }
 
-    const data = Buffer.from(vtPbf.fromGeojsonVt({ parking: tile }));
+    const data = Buffer.from(vtPbf.fromGeojsonVt({ cifs: tile }));
 
     zlib.gzip(data, function(err, buffer) {
       if (err) {
