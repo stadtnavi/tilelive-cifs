@@ -5,9 +5,9 @@ const request = require("requestretry");
 const zlib = require("zlib");
 const NodeCache = require("node-cache" );
 const _ = require("lodash");
-var flatten = require('flat');
+const flatten = require('flat');
 
-const url = "https://raw.githubusercontent.com/stadtnavi/tilelive-cifs/main/cifs/herrenberg.cifs.json";
+const url = process.env.CIFS_URL || "https://raw.githubusercontent.com/stadtnavi/tilelive-cifs/main/cifs/herrenberg.cifs.json";
 
 const getGeoJson = (url, callback) => {
   request(
