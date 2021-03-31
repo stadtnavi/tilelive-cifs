@@ -1,0 +1,30 @@
+{
+  "incidents": [
+    {
+      "location": {
+        "direction": "BOTH_DIRECTIONS",
+        "fromStreetnames": "Hildrizhauser Str.",
+        "incidentId": "846af20a-b8fe-4372-82aa-a7c8e89f6f53",
+        "polyline": "8.873509168624878 48.59432870906054 8.87371301651001 48.594186790798275 8.873927593231201 48.59400229646133 8.874238729476929 48.59378232156372 8.874528408050537 48.59353396165728 8.875730037689209 48.59277468237201 8.876416683197021 48.592384394187306 8.87694239616394 48.592050872804194 8.877425193786621 48.5917386380248 8.87771487236023 48.59159671248723 8.87843370437622 48.59112835538484",
+        "referenceId": "da348a21f85883f146a045eed3762fda",
+        "street": "Tübinger Straße",
+        "toStreetnames": "Marienstraße/Beethovenstraße"
+      },
+      "creationtime": "2021-03-31T14:29:38+0200",
+      "starttime": "2021-04-06T00:00:00+0200",
+      "endtime": "2021-05-31T00:00:00+0200",
+      "type": "ROAD_CLOSED",
+      "subtype": "ROAD_CLOSED_CONSTRUCTION",
+      "description": "Die Tübinger Straße wird im Bereich nach der Einmündung Hildrizhauser Straße bis einschließlich Kreuzung Beethoven-/Marienstraße umgebaut. Der Umbau erfolgt in zwei Bauabschnitten: Der erste Abschnitt dauert von Dienstag, 6. April, bis voraussichtlich Samstag, 22. Mai, der zweite Abschnitt dann bis voraussichtlich Montag, 31. Mai 2021.",
+      "mode": [
+        "ROAD_CLOSED_PEDESTRIAN",
+        "ROAD_CLOSED_BICYCLE",
+        "ROAD_CLOSED_BUS",
+        "ROAD_CLOSED_CAR",
+        "ROAD_CLOSED_TAXI_RIDESHARE"
+      ],
+      "fromIntersectionClosed": true,
+      "toIntersectionClosed": true
+    }
+  ]
+}
