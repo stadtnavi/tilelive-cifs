@@ -62,7 +62,7 @@ const cifsPolylineToGeoJson = (linestring) => {
 class CifsSource {
   constructor(uri, callback) {
     this.cacheKey = "tileindex";
-    this.cache = new NodeCache({ stdTTL: 60, useClones: false });
+    this.cache = new NodeCache({ stdTTL: 600, useClones: false });
     this.url = url;
     callback(null, this);
   }
