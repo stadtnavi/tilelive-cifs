@@ -1,0 +1,11 @@
+#! /usr/bin/env python3
+
+import json
+
+f = open("tuebinger.json")
+j = json.load(f)
+
+cs = j["coordinates"]
+
+for c in cs:
+    print(f"{c[0]} {c[1]}", end =" ")
