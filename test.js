@@ -5,7 +5,7 @@ const CifsSource = require("./index");
 
 describe("CifsSource", function() {
   it("convert to GeoJSON", () => {
-    const data = fs.readFileSync('cifs/herrenberg.cifs.json', 'utf8')
+    const data = fs.readFileSync('cifs/test.cifs.json', 'utf8')
     const json = JSON.parse(data);
 
     assert(json.incidents.length == 6);
@@ -15,7 +15,7 @@ describe("CifsSource", function() {
   });
 
   it("fetch data", (done) => {
-    const url = "https://raw.githubusercontent.com/stadtnavi/tilelive-cifs/main/cifs/herrenberg.cifs.json";
+    const url = "https://raw.githubusercontent.com/stadtnavi/tilelive-cifs/main/cifs/test.cifs.json";
     const source = new CifsSource(url, () => {});
     source.url = url;
     assert.ok(source);

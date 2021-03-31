@@ -7,7 +7,7 @@ const NodeCache = require("node-cache" );
 const _ = require("lodash");
 const flatten = require('flat');
 
-const url = process.env.CIFS_URL || "https://raw.githubusercontent.com/stadtnavi/tilelive-cifs/main/cifs/herrenberg.cifs.json";
+const url = process.env.CIFS_URL || "https://raw.githubusercontent.com/stadtnavi/tilelive-cifs/main/cifs/test.cifs.json";
 
 const getGeoJson = (url, callback) => {
   request(
