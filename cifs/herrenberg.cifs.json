@@ -24,7 +24,8 @@
         "ROAD_CLOSED_TAXI_RIDESHARE"
       ],
       "fromIntersectionClosed": true,
-      "toIntersectionClosed": true
+      "toIntersectionClosed": true,
+      "details_url": "https://www.herrenberg.de/de/Rathaus/Aktuelles-Presse/Stadtnachrichten/Nachricht?view=publish&item=article&id=3081"
     }
   ]
 }
