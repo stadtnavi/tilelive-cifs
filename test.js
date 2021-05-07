@@ -18,7 +18,7 @@ describe("CifsSource", function() {
   });
 
   it("fetch data", (done) => {
-    const url = "https://raw.githubusercontent.com/stadtnavi/tilelive-cifs/main/cifs/test.cifs.json";
+    const url = "https://raw.githubusercontent.com/stadtnavi/tilelive-cifs/main/cifs/test.cifs.json,https://data.mfdz.de/mfdz/cifs_arbeitsstellen_svz_bw/body.json";
     const source = new CifsSource(null, () => {});
     source.url = url;
     assert.ok(source);
@@ -38,5 +38,5 @@ describe("CifsSource", function() {
       })
 
     })
-  });
+  }).timeout(15000);
 });

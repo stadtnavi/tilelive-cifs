@@ -1,7 +1,6 @@
 "use strict";
 const geojsonVt = require("geojson-vt");
 const vtPbf = require("vt-pbf");
-const request = require("requestretry");
 const zlib = require("zlib");
 const NodeCache = require("node-cache" );
 const _ = require("lodash");
@@ -20,7 +19,8 @@ const getGeoJson = (url, callback) => {
       const incidents = _.reduceRight(results, (result, other) => result.concat(other.incidents), []);
       const geojson = cifsToGeoJson({incidents: incidents});
       callback(null, geojson);
-    });
+    })
+    .catch(e => console.log(e));
 };
 
 // i haven't been able to find a way to directly generate the vector tiles, so
@@ -30,7 +30,8 @@ const cifsToGeoJson = json => {
 
   const features = json.incidents.map(incident => {
 
-    incident.mode = incident.mode.join(",");
+    const i = incident.mode || "";
+    incident.mode = i.join(",");
 
     return {
       type: "Feature",
