@@ -6,28 +6,21 @@ const zlib = require("zlib");
 const NodeCache = require("node-cache" );
 const _ = require("lodash");
 const flatten = require('flat');
+const fetch = require('node-fetch');
 
 const url = process.env.CIFS_URL || "https://raw.githubusercontent.com/stadtnavi/tilelive-cifs/main/cifs/test.cifs.json";
 
 const getGeoJson = (url, callback) => {
-  request(
-    {
-      url: url,
-      maxAttempts: 20,
-      retryDelay: 30000,
-      retryStrategy: (err, response) =>
-        request.RetryStrategies.HTTPOrNetworkError(err, response) ||
-        (response && 202 === response.statusCode)
-    },
-    function(err, res, body) {
-      if (err) {
-        console.log(`Error when downloading CIFS data from ${url}: ${err} ${res} ${body}`);
-        callback(err);
-        return;
-      }
-      callback(null, cifsToGeoJson(JSON.parse(body)));
-    }
-  );
+  const promises = url.split(",").map(url => fetch(url));
+
+  Promise.all(promises)
+    .then(results => Promise.all(results.map(r => r.json())))
+    .then(results => {
+      // combine all incidents
+      const incidents = _.reduceRight(results, (result, other) => result.concat(other.incidents), []);
+      const geojson = cifsToGeoJson({incidents: incidents});
+      callback(null, geojson);
+    });
 };
 
 // i haven't been able to find a way to directly generate the vector tiles, so
