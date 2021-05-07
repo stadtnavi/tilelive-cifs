@@ -30,8 +30,8 @@ const cifsToGeoJson = json => {
 
   const features = json.incidents.map(incident => {
 
-    const i = incident.mode || "";
-    incident.mode = i.join(",");
+    const mode = incident.mode || [];
+    incident.mode = mode.join(",");
 
     return {
       type: "Feature",
