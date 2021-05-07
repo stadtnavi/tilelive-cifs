@@ -11,8 +11,10 @@ describe("CifsSource", function() {
     assert(json.incidents.length == 1);
 
     const geoJson = cifsToGeoJson(json);
-    console.log(geoJson);
-    fs.writeFileSync("cifs/herrenberg.geojson", JSON.stringify(geoJson, null, 2));
+    const expected = fs.readFileSync("cifs/herrenberg.geojson");
+
+    const actual = JSON.stringify(geoJson, null, 2);
+    assert(expected == actual);
   });
 
   it("fetch data", (done) => {
@@ -22,13 +24,13 @@ describe("CifsSource", function() {
     assert.ok(source);
 
     // request tile in Herrenberg
-    source.getTile(18, 137526, 90476, (err, response) => {
+    source.getTile(17, 68767, 45238, (err, response) => {
       assert.ok(response.length > 100);
       assert.ok(response);
 
       // request another tile
       // should come from the cache
-      source.getTile(18, 137526, 90476, (err, response) => {
+      source.getTile(17, 68767, 45238, (err, response) => {
         assert.ok(response.length > 100);
         assert.ok(response);
         assert.ok(source.cache.has(source.cacheKey));
