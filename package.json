@@ -13,11 +13,11 @@
     "geojson-vt": "^3.2.0",
     "lodash": "^4.17.21",
     "node-cache": "^5.1.2",
-    "requestretry": "^1.6.0",
+    "request": "^2.88.2",
+    "requestretry": "^5.0.0",
     "vt-pbf": "^2.0.2"
   },
   "devDependencies": {
-    "mocha": "^6.2.2",
-    "prettier": "1.19.1"
+    "mocha": "^8.4.0"
   }
 }
