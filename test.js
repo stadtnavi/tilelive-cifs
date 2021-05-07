@@ -8,9 +8,10 @@ describe("CifsSource", function() {
     const data = fs.readFileSync('cifs/test.cifs.json', 'utf8')
     const json = JSON.parse(data);
 
-    assert(json.incidents.length == 6);
+    assert(json.incidents.length == 1);
 
     const geoJson = cifsToGeoJson(json);
+    console.log(geoJson);
     fs.writeFileSync("cifs/herrenberg.geojson", JSON.stringify(geoJson, null, 2));
   });
 
