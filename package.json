@@ -11,7 +11,7 @@
   "dependencies": {
     "flat": "^5.0.2",
     "geojson-vt": "^3.2.0",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "node-cache": "^5.1.2",
     "requestretry": "^1.6.0",
     "vt-pbf": "^2.0.2"
