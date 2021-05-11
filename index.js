@@ -86,7 +86,7 @@ class CifsSource {
   }
 
   computeTile(geoJson, z, x, y, callback) {
-    const tileIndex = geojsonVt(geoJson, { maxZoom: 20, buffer: 1024 });
+    const tileIndex = geojsonVt(geoJson, { maxZoom: 20, buffer: 4096 });
     let tile = tileIndex.getTile(z, x, y);
     if (tile === null) {
       tile = { features: [] };
