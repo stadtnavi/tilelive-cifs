@@ -24,7 +24,7 @@
       "type": "ROAD_CLOSED",
       "subtype": "ROAD_CLOSED_CONSTRUCTION",
       "location": {
-        "polyline": "48.894145 9.186673 48.894145 9.186673",
+        "polyline": "48.894145 9.186673 48.8942 9.1867",
         "street": "Schillerstraße",
         "direction": "ONE_DIRECTION"
       },
