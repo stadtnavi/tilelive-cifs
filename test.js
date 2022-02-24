@@ -30,7 +30,7 @@ describe("CifsSource", function() {
 
     const actual = JSON.stringify(geoJson, null, 2);
 
-    fs.writeFileSync("cifs/ludwigsburg.geojson", actual, "utf8");
+    //fs.writeFileSync("cifs/ludwigsburg.geojson", actual, "utf8");
     assert.equal(expected, actual);
   });
 
@@ -66,7 +66,7 @@ describe("CifsSource", function() {
     // request tile in Ludwigsburg
     source.getTile(17, 68880, 45071, (err, response) => {
 
-      assert.equal(404, response.length);
+      assert.equal(405, response.length);
       assert.ok(response);
 
       done()

@@ -50,9 +50,19 @@ const cifsToGeoJson = json => {
 };
 
 const cifsPolylineToGeoJson = (linestring) => {
-  return _.chunk(linestring.trim().split(" "), 2)
+  const polyline = _.chunk(linestring.trim().split(" "), 2)
     // reverse order from lat,lon (CIFS) to lon, lat (GeoJSON)
     .map(c => [new Number(c[1]), new Number(c[0])]);
+
+  if(polyline.length === 2 && _.isEqual(polyline[0], polyline[1])) {
+    const second = polyline[1];
+
+    const increase = 0.00005;
+
+    second[0] = second[0] + increase;
+    second[1] = second[1] + increase;
+  }
+  return polyline;
 };
 
 class CifsSource {
