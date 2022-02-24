@@ -42,8 +42,8 @@
             48.894145
           ],
           [
-            9.186673,
-            48.894145
+            9.1867,
+            48.8942
           ]
         ]
       },
@@ -54,7 +54,7 @@
         "description": "Die Straße ist halbseitig für den Fahrverkehr gesperrt. Die Straße ist eingeschränkt befahrbar.",
         "type": "ROAD_CLOSED",
         "subtype": "ROAD_CLOSED_CONSTRUCTION",
-        "location.polyline": "48.894145 9.186673 48.894145 9.186673",
+        "location.polyline": "48.894145 9.186673 48.8942 9.1867",
         "location.street": "Schillerstraße",
         "location.direction": "ONE_DIRECTION",
         "starttime": "2020-02-03T23:59:59+01:00",
