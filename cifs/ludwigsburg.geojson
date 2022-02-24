@@ -1,0 +1,656 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.186673,
+            48.894145
+          ],
+          [
+            9.186673,
+            48.894145
+          ]
+        ]
+      },
+      "properties": {
+        "id": "LB-47",
+        "creationtime": "2020-02-03T23:59:59+01:00",
+        "updatetime": "2020-02-03T23:59:59+01:00",
+        "description": "Die Straße ist halbseitig für den Fahrverkehr gesperrt. Die Straße ist eingeschränkt befahrbar.",
+        "type": "ROAD_CLOSED",
+        "subtype": "ROAD_CLOSED_CONSTRUCTION",
+        "location.polyline": "48.894145 9.186673 48.894145 9.186673",
+        "location.street": "Schillerstraße",
+        "location.direction": "ONE_DIRECTION",
+        "starttime": "2020-02-03T23:59:59+01:00",
+        "endtime": "2023-11-30T23:59:59+01:00",
+        "reference": "LB",
+        "mode": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.186673,
+            48.894145
+          ],
+          [
+            9.186673,
+            48.894145
+          ]
+        ]
+      },
+      "properties": {
+        "id": "LB-47",
+        "creationtime": "2020-02-03T23:59:59+01:00",
+        "updatetime": "2020-02-03T23:59:59+01:00",
+        "description": "Die Straße ist halbseitig für den Fahrverkehr gesperrt. Die Straße ist eingeschränkt befahrbar.",
+        "type": "ROAD_CLOSED",
+        "subtype": "ROAD_CLOSED_CONSTRUCTION",
+        "location.polyline": "48.894145 9.186673 48.894145 9.186673",
+        "location.street": "Schillerstraße",
+        "location.direction": "ONE_DIRECTION",
+        "starttime": "2020-02-03T23:59:59+01:00",
+        "endtime": "2023-11-30T23:59:59+01:00",
+        "reference": "LB",
+        "mode": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.200129,
+            48.889641
+          ],
+          [
+            9.200129,
+            48.889641
+          ]
+        ]
+      },
+      "properties": {
+        "id": "LB-1505",
+        "creationtime": "2020-12-07T23:59:59+01:00",
+        "updatetime": "2020-12-07T23:59:59+01:00",
+        "description": "Die Straße ist vollständig für den Fahrverkehr gesperrt.",
+        "type": "ROAD_CLOSED",
+        "subtype": "ROAD_CLOSED_CONSTRUCTION",
+        "location.polyline": "48.889641 9.200129 48.889641 9.200129",
+        "location.street": "Eugenstraße",
+        "location.direction": "BOTH_DIRECTION",
+        "starttime": "2020-12-07T23:59:59+01:00",
+        "endtime": "2022-06-30T23:59:59+01:00",
+        "reference": "LB",
+        "mode": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.177632,
+            48.893289
+          ],
+          [
+            9.177632,
+            48.893289
+          ]
+        ]
+      },
+      "properties": {
+        "id": "LB-1697",
+        "creationtime": "2021-04-23T23:59:59+01:00",
+        "updatetime": "2021-04-23T23:59:59+01:00",
+        "description": "Die Straße ist halbseitig für den Fahrverkehr gesperrt.",
+        "type": "ROAD_CLOSED",
+        "subtype": "ROAD_CLOSED_CONSTRUCTION",
+        "location.polyline": "48.893289 9.177632 48.893289 9.177632",
+        "location.street": "Martin-Luther-Straße, Gottlob-Molt-Straße, Hoferstraße",
+        "location.direction": "ONE_DIRECTION",
+        "starttime": "2021-04-23T23:59:59+01:00",
+        "endtime": "2022-03-06T23:59:59+01:00",
+        "reference": "LB",
+        "mode": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.177632,
+            48.893289
+          ],
+          [
+            9.177632,
+            48.893289
+          ]
+        ]
+      },
+      "properties": {
+        "id": "LB-1697",
+        "creationtime": "2021-04-23T23:59:59+01:00",
+        "updatetime": "2021-04-23T23:59:59+01:00",
+        "description": "Die Straße ist halbseitig für den Fahrverkehr gesperrt.",
+        "type": "ROAD_CLOSED",
+        "subtype": "ROAD_CLOSED_CONSTRUCTION",
+        "location.polyline": "48.893289 9.177632 48.893289 9.177632",
+        "location.street": "Martin-Luther-Straße, Gottlob-Molt-Straße, Hoferstraße",
+        "location.direction": "ONE_DIRECTION",
+        "starttime": "2021-04-23T23:59:59+01:00",
+        "endtime": "2022-03-06T23:59:59+01:00",
+        "reference": "LB",
+        "mode": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.177632,
+            48.893289
+          ],
+          [
+            9.177632,
+            48.893289
+          ]
+        ]
+      },
+      "properties": {
+        "id": "LB-1697",
+        "creationtime": "2021-04-23T23:59:59+01:00",
+        "updatetime": "2021-04-23T23:59:59+01:00",
+        "description": "Die Straße ist halbseitig für den Fahrverkehr gesperrt.",
+        "type": "ROAD_CLOSED",
+        "subtype": "ROAD_CLOSED_CONSTRUCTION",
+        "location.polyline": "48.893289 9.177632 48.893289 9.177632",
+        "location.street": "Martin-Luther-Straße, Gottlob-Molt-Straße, Hoferstraße",
+        "location.direction": "ONE_DIRECTION",
+        "starttime": "2021-04-23T23:59:59+01:00",
+        "endtime": "2022-03-06T23:59:59+01:00",
+        "reference": "LB",
+        "mode": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.177632,
+            48.893289
+          ],
+          [
+            9.177632,
+            48.893289
+          ]
+        ]
+      },
+      "properties": {
+        "id": "LB-1697",
+        "creationtime": "2021-04-23T23:59:59+01:00",
+        "updatetime": "2021-04-23T23:59:59+01:00",
+        "description": "Die Straße ist halbseitig für den Fahrverkehr gesperrt.",
+        "type": "ROAD_CLOSED",
+        "subtype": "ROAD_CLOSED_CONSTRUCTION",
+        "location.polyline": "48.893289 9.177632 48.893289 9.177632",
+        "location.street": "Martin-Luther-Straße, Gottlob-Molt-Straße, Hoferstraße",
+        "location.direction": "ONE_DIRECTION",
+        "starttime": "2021-04-23T23:59:59+01:00",
+        "endtime": "2022-03-06T23:59:59+01:00",
+        "reference": "LB",
+        "mode": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.168149,
+            48.892949
+          ],
+          [
+            9.168149,
+            48.892949
+          ]
+        ]
+      },
+      "properties": {
+        "id": "LB-1701",
+        "creationtime": "2021-10-18T23:59:59+01:00",
+        "updatetime": "2021-10-18T23:59:59+01:00",
+        "description": "Die Straße ist halbseitig für den Fahrverkehr gesperrt. Der Gehweg ist für den Fußgängerverkehr gesperrt.",
+        "type": "ROAD_CLOSED",
+        "subtype": "ROAD_CLOSED_CONSTRUCTION",
+        "location.polyline": "48.892949 9.168149 48.892949 9.168149",
+        "location.street": "Grönerstraße, Schlieffenstraße",
+        "location.direction": "ONE_DIRECTION",
+        "starttime": "2021-10-18T23:59:59+01:00",
+        "endtime": "2022-05-01T23:59:59+01:00",
+        "reference": "LB",
+        "mode": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.168149,
+            48.892949
+          ],
+          [
+            9.168149,
+            48.892949
+          ]
+        ]
+      },
+      "properties": {
+        "id": "LB-1701",
+        "creationtime": "2021-10-18T23:59:59+01:00",
+        "updatetime": "2021-10-18T23:59:59+01:00",
+        "description": "Die Straße ist halbseitig für den Fahrverkehr gesperrt. Der Gehweg ist für den Fußgängerverkehr gesperrt.",
+        "type": "ROAD_CLOSED",
+        "subtype": "ROAD_CLOSED_CONSTRUCTION",
+        "location.polyline": "48.892949 9.168149 48.892949 9.168149",
+        "location.street": "Grönerstraße, Schlieffenstraße",
+        "location.direction": "ONE_DIRECTION",
+        "starttime": "2021-10-18T23:59:59+01:00",
+        "endtime": "2022-05-01T23:59:59+01:00",
+        "reference": "LB",
+        "mode": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.201225,
+            48.886905
+          ],
+          [
+            9.201225,
+            48.886905
+          ]
+        ]
+      },
+      "properties": {
+        "id": "LB-1710",
+        "creationtime": "2021-09-27T23:59:59+01:00",
+        "updatetime": "2021-09-27T23:59:59+01:00",
+        "description": "Der Gehweg ist für den Fußgängerverkehr gesperrt. In diesem Bereich ist der Fahrradverkehr gesperrt. Die Straße ist spurweise gesperrt.",
+        "type": "ROAD_CLOSED",
+        "subtype": "",
+        "location.polyline": "48.886905 9.201225 48.886905 9.201225",
+        "location.street": "Robert-Franck-Allee",
+        "location.direction": "ONE_DIRECTION",
+        "starttime": "2021-09-27T23:59:59+01:00",
+        "endtime": "2022-03-31T23:59:59+01:00",
+        "reference": "LB",
+        "mode": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.201225,
+            48.886905
+          ],
+          [
+            9.201225,
+            48.886905
+          ]
+        ]
+      },
+      "properties": {
+        "id": "LB-1710",
+        "creationtime": "2021-09-27T23:59:59+01:00",
+        "updatetime": "2021-09-27T23:59:59+01:00",
+        "description": "Der Gehweg ist für den Fußgängerverkehr gesperrt. In diesem Bereich ist der Fahrradverkehr gesperrt. Die Straße ist spurweise gesperrt.",
+        "type": "ROAD_CLOSED",
+        "subtype": "",
+        "location.polyline": "48.886905 9.201225 48.886905 9.201225",
+        "location.street": "Robert-Franck-Allee",
+        "location.direction": "ONE_DIRECTION",
+        "starttime": "2021-09-27T23:59:59+01:00",
+        "endtime": "2022-03-31T23:59:59+01:00",
+        "reference": "LB",
+        "mode": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.201225,
+            48.886905
+          ],
+          [
+            9.201225,
+            48.886905
+          ]
+        ]
+      },
+      "properties": {
+        "id": "LB-1710",
+        "creationtime": "2021-09-27T23:59:59+01:00",
+        "updatetime": "2021-09-27T23:59:59+01:00",
+        "description": "Der Gehweg ist für den Fußgängerverkehr gesperrt. In diesem Bereich ist der Fahrradverkehr gesperrt. Die Straße ist spurweise gesperrt.",
+        "type": "ROAD_CLOSED",
+        "subtype": "",
+        "location.polyline": "48.886905 9.201225 48.886905 9.201225",
+        "location.street": "Robert-Franck-Allee",
+        "location.direction": "ONE_DIRECTION",
+        "starttime": "2021-09-27T23:59:59+01:00",
+        "endtime": "2022-03-31T23:59:59+01:00",
+        "reference": "LB",
+        "mode": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.18767,
+            48.900485
+          ],
+          [
+            9.18767,
+            48.900485
+          ]
+        ]
+      },
+      "properties": {
+        "id": "LB-2241",
+        "creationtime": "2021-05-01T23:59:59+01:00",
+        "updatetime": "2021-05-01T23:59:59+01:00",
+        "description": "Die Straße ist vollständig für den Fahrverkehr gesperrt.",
+        "type": "ROAD_CLOSED",
+        "subtype": "ROAD_CLOSED_CONSTRUCTION",
+        "location.polyline": "48.900485 9.18767 48.900485 9.18767",
+        "location.street": "Bauhofstraße",
+        "location.direction": "BOTH_DIRECTION",
+        "starttime": "2021-05-01T23:59:59+01:00",
+        "endtime": "2022-04-30T23:59:59+01:00",
+        "reference": "LB",
+        "mode": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.190498,
+            48.886162
+          ],
+          [
+            9.190498,
+            48.886162
+          ]
+        ]
+      },
+      "properties": {
+        "id": "LB-2601",
+        "creationtime": "2021-07-12T23:59:59+01:00",
+        "updatetime": "2021-07-12T23:59:59+01:00",
+        "description": "Die Straße ist halbseitig für den Fahrverkehr gesperrt. Der Gehweg ist für den Fußgängerverkehr gesperrt.",
+        "type": "ROAD_CLOSED",
+        "subtype": "",
+        "location.polyline": "48.886162 9.190498 48.886162 9.190498",
+        "location.street": "Hohenzollernstraße",
+        "location.direction": "ONE_DIRECTION",
+        "starttime": "2021-07-12T23:59:59+01:00",
+        "endtime": "2022-12-31T23:59:59+01:00",
+        "reference": "LB",
+        "mode": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.152951,
+            48.892035
+          ],
+          [
+            9.152951,
+            48.892035
+          ]
+        ]
+      },
+      "properties": {
+        "id": "LB-2804",
+        "creationtime": "2022-02-07T23:59:59+01:00",
+        "updatetime": "2022-02-07T23:59:59+01:00",
+        "description": "Die Straße ist vollständig für den Fahrverkehr gesperrt.",
+        "type": "ROAD_CLOSED",
+        "subtype": "ROAD_CLOSED_CONSTRUCTION",
+        "location.polyline": "48.892035 9.152951 48.892035 9.152951",
+        "location.street": "Mörikestraße",
+        "location.direction": "BOTH_DIRECTION",
+        "starttime": "2022-02-07T23:59:59+01:00",
+        "endtime": "2022-04-01T23:59:59+01:00",
+        "reference": "LB",
+        "mode": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.152951,
+            48.892035
+          ],
+          [
+            9.152951,
+            48.892035
+          ]
+        ]
+      },
+      "properties": {
+        "id": "LB-2804",
+        "creationtime": "2022-02-07T23:59:59+01:00",
+        "updatetime": "2022-02-07T23:59:59+01:00",
+        "description": "Die Straße ist vollständig für den Fahrverkehr gesperrt.",
+        "type": "ROAD_CLOSED",
+        "subtype": "ROAD_CLOSED_CONSTRUCTION",
+        "location.polyline": "48.892035 9.152951 48.892035 9.152951",
+        "location.street": "Mörikestraße",
+        "location.direction": "BOTH_DIRECTION",
+        "starttime": "2022-02-07T23:59:59+01:00",
+        "endtime": "2022-04-01T23:59:59+01:00",
+        "reference": "LB",
+        "mode": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.152951,
+            48.892035
+          ],
+          [
+            9.152951,
+            48.892035
+          ]
+        ]
+      },
+      "properties": {
+        "id": "LB-2804",
+        "creationtime": "2022-02-07T23:59:59+01:00",
+        "updatetime": "2022-02-07T23:59:59+01:00",
+        "description": "Die Straße ist vollständig für den Fahrverkehr gesperrt.",
+        "type": "ROAD_CLOSED",
+        "subtype": "ROAD_CLOSED_CONSTRUCTION",
+        "location.polyline": "48.892035 9.152951 48.892035 9.152951",
+        "location.street": "Mörikestraße",
+        "location.direction": "BOTH_DIRECTION",
+        "starttime": "2022-02-07T23:59:59+01:00",
+        "endtime": "2022-04-01T23:59:59+01:00",
+        "reference": "LB",
+        "mode": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.152951,
+            48.892035
+          ],
+          [
+            9.152951,
+            48.892035
+          ]
+        ]
+      },
+      "properties": {
+        "id": "LB-2804",
+        "creationtime": "2022-02-07T23:59:59+01:00",
+        "updatetime": "2022-02-07T23:59:59+01:00",
+        "description": "Die Straße ist vollständig für den Fahrverkehr gesperrt.",
+        "type": "ROAD_CLOSED",
+        "subtype": "ROAD_CLOSED_CONSTRUCTION",
+        "location.polyline": "48.892035 9.152951 48.892035 9.152951",
+        "location.street": "Mörikestraße",
+        "location.direction": "BOTH_DIRECTION",
+        "starttime": "2022-02-07T23:59:59+01:00",
+        "endtime": "2022-04-01T23:59:59+01:00",
+        "reference": "LB",
+        "mode": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.152951,
+            48.892035
+          ],
+          [
+            9.152951,
+            48.892035
+          ]
+        ]
+      },
+      "properties": {
+        "id": "LB-2804",
+        "creationtime": "2022-02-07T23:59:59+01:00",
+        "updatetime": "2022-02-07T23:59:59+01:00",
+        "description": "Die Straße ist vollständig für den Fahrverkehr gesperrt.",
+        "type": "ROAD_CLOSED",
+        "subtype": "ROAD_CLOSED_CONSTRUCTION",
+        "location.polyline": "48.892035 9.152951 48.892035 9.152951",
+        "location.street": "Mörikestraße",
+        "location.direction": "BOTH_DIRECTION",
+        "starttime": "2022-02-07T23:59:59+01:00",
+        "endtime": "2022-04-01T23:59:59+01:00",
+        "reference": "LB",
+        "mode": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.203018,
+            48.908801
+          ],
+          [
+            9.203018,
+            48.908801
+          ]
+        ]
+      },
+      "properties": {
+        "id": "LB-3651",
+        "creationtime": "2022-02-28T23:59:59+01:00",
+        "updatetime": "2022-02-28T23:59:59+01:00",
+        "description": "Die Straße ist halbseitig für den Fahrverkehr gesperrt. In diesem Bereich ist der Fahrradverkehr gesperrt.",
+        "type": "ROAD_CLOSED",
+        "subtype": "ROAD_CLOSED_CONSTRUCTION",
+        "location.polyline": "48.908801 9.203018 48.908801 9.203018",
+        "location.street": "Bottwartalstraße",
+        "location.direction": "ONE_DIRECTION",
+        "starttime": "2022-02-28T23:59:59+01:00",
+        "endtime": "2022-03-18T23:59:59+01:00",
+        "reference": "LB",
+        "mode": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.171267,
+            48.907784
+          ],
+          [
+            9.171267,
+            48.907784
+          ]
+        ]
+      },
+      "properties": {
+        "id": "LB-3655",
+        "creationtime": "2022-02-28T23:59:59+01:00",
+        "updatetime": "2022-02-28T23:59:59+01:00",
+        "description": "Die Straße ist vollständig für den Fahrverkehr gesperrt. Der Gehweg ist für den Fußgängerverkehr gesperrt.",
+        "type": "ROAD_CLOSED",
+        "subtype": "ROAD_CLOSED_CONSTRUCTION",
+        "location.polyline": "48.907784 9.171267 48.907784 9.171267",
+        "location.street": "Katharinenstraße",
+        "location.direction": "BOTH_DIRECTION",
+        "starttime": "2022-02-28T23:59:59+01:00",
+        "endtime": "2022-03-04T23:59:59+01:00",
+        "reference": "LB",
+        "mode": ""
+      }
+    }
+  ]
+}

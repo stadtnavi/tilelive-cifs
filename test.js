@@ -14,6 +14,23 @@ describe("CifsSource", function() {
     const expected = fs.readFileSync("cifs/herrenberg.geojson");
 
     const actual = JSON.stringify(geoJson, null, 2);
+
+    //fs.writeFileSync("cifs/herrenberg.geojson", actual);
+    assert(expected == actual);
+  });
+
+  it("convert Ludwigsburg to GeoJSON", () => {
+    const data = fs.readFileSync('cifs/ludwigsburg.cifs.json', 'utf8')
+    const json = JSON.parse(data);
+
+    assert(json.incidents.length == 21);
+
+    const geoJson = cifsToGeoJson(json);
+    const expected = fs.readFileSync("cifs/ludwigsburg.geojson");
+
+    const actual = JSON.stringify(geoJson, null, 2);
+
+    //fs.writeFileSync("cifs/ludwigsburg.geojson", actual);
     assert(expected == actual);
   });
 
